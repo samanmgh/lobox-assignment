@@ -1,0 +1,35 @@
+stages:
+  - build
+  - deploy
+build:
+  stage: build
+  services:
+    - docker:dind
+  image: node:20.11.1
+  script:
+    - apt-get update
+    - apt-get install zip
+    - https_proxy=http://46.245.68.11:20171 npm install
+    - npm run build
+    - zip -r dist.zip ./dist
+  artifacts:
+    paths:
+      - ./dist.zip
+  only:
+    - /^v\d{1,6}\.\d{1,6}\.\d{1,6}$/
+
+deploy:
+  stage: deploy
+  image: dwdraju/ssh-client-alpine
+  script:
+  - mkdir -p ~/.ssh
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+  - chmod 600 ~/.ssh/id_rsa
+  - echo $VM_IPADDRESS > ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
+  - ssh -o StrictHostKeyChecking=no $SSH_USER@$VM_IPADDRESS 'hostname'
+  - scp -P22 -r ./* $SSH_USER@$VM_IPADDRESS:/srv/nginx/frontend/html
+  dependencies:
+    - build
+  only:
+    - /^v\d{1,6}\.\d{1,6}\.\d{1,6}$/
