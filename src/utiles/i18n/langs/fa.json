@@ -1,0 +1,257 @@
+{
+  "routes": {
+    "dashboard": "داشبورد",
+    "staff_management": "مدیریت کارمندان",
+    "user_management": "مدیریت کاربران",
+    "report": "گزارش گیری",
+    "bot_management": "مدیریت بات",
+    "chat_management": "مدیریت چت",
+    "chat_management_page": "چت‌های کاربر",
+    "upload_file": "آپلود فایل"
+  },
+  "auth": {
+    "login": "ورود به حساب کاربری",
+    "input_username": "نام کاربری",
+    "input_username_placeholder": "ایمیل یا کد ملی خود را وارد کنید",
+    "invalid_username": "ایمیل یا کد ملی شما اشتباه است.",
+    "input_password": "کلمه عبور",
+    "input_password_placeholder": "کلمه عبور خود را وارد کنید",
+    "invalid_password": "کلمه عبور شما اشتباه است."
+  },
+  "common": {
+    "input_captcha": "کد امنیتی",
+    "input_captcha_placeholder": "کد امنیتی را وارد کنید",
+    "invalid_captcha": "کد امنیتی وارد شده اشتباه است.",
+    "submit_login": "ورود",
+    "verify": "تایید",
+    "week_day": {
+      "sat": "شنبه",
+      "sun": "یکشنبه",
+      "mon": "دوشنبه",
+      "tue": "سه‌شنبه",
+      "wed": "چهارشنبه",
+      "thu": "پنج‌شنبه",
+      "fri": "جمعه"
+    }
+  },
+  "app": {
+    "navbar": {
+      "logo": "پنل ادمین",
+      "logout_nav": "خروج از حساب",
+      "logout_title": "آیا مطمئن هستید میخواهید از حساب کاربری خود خارج شوید؟",
+      "cancel": "انصراف",
+      "logout": "بله خارج می شوم"
+    }
+  },
+  "pages": {
+    "staff_management": {
+      "table": {
+        "first_name": "نام",
+        "last_name": "نام خانوادگی",
+        "edit_info": "ویرایش اطلاعات",
+        "access_setting": "تنظیمات دسترسی",
+        "view_profile": "مشاهده پروفایل",
+        "enable": "فعالسازی",
+        "disable": "غیرفعالسازی",
+        "delete": "حذف"
+      },
+      "filter": {
+        "add_staff": "افزودن کارمند",
+        "search": "جستجو...",
+        "filter_title": "فیلتر",
+        "enable": "فعال",
+        "disable": "غیرفعال",
+        "apply_filter": "اعمال فیلترها",
+        "delete_filter": "پاک کردن فیلترها",
+        "activity_status": "وضعیت فعالیت",
+        "access_level": "سطح دسترسی"
+      },
+      "staff_form": {
+        "title": "افزودن کارمند جدید",
+        "input_firstName": "نام",
+        "invalid_firstName": "نام را وارد کنید.",
+        "input_lastName": "نام خانوادگی",
+        "invalid_lastName": "نام خانوادگی را وارد کنید.",
+        "input_password": "رمز عبور",
+        "invalid_password": "رمز عبور را وارد کنید.",
+        "input_username": "نام کاربری",
+        "invalid_username": "نام کاربری را وارد کنید.",
+        "input_email": "ایمیل",
+        "invalid_email": "ایمیل را وارد کنید.",
+        "input_mobile": "شماره موبایل",
+        "invalid_mobile": "شماره موبایل را وارد کنید.",
+        "input_nationalCode": "کدملی",
+        "invalid_nationalCode": "کدملی را وارد کنید.",
+        "input_fatherName": "نام پدر",
+        "invalid_fatherName": "نام پدر را وارد کنید.",
+        "add_staff": "ذخیره و افزودن کارمند",
+        "save_staff": "ذخیره اطلاعات کاربری",
+        "delete": "حذف"
+      },
+      "access_level_form": {
+        "title": "تنظیمات سطح دسترسی",
+        "save_setting": "ذخیره تنظیمات سطح دسترسی"
+      },
+      "view_profile_form": {
+        "first_name": "نام",
+        "last_name": "نام خانوادگی",
+        "user_name": "نام کاربری",
+        "password": "رمز عبور",
+        "national_code": "کدملی",
+        "father_name": "نام پدر",
+        "last_view": "آخرین بازدید",
+        "answered_chat": "تعداد چت های پاسخ داده شده",
+        "user_score": "تعداد امتیاز های داده شده توسط  کاربر",
+        "answered_users": " تعداد جواب های داده شده توسط  کاربر"
+      }
+    },
+    "user_management": {
+      "table": {
+        "first_name": "نام",
+        "last_name": "نام خانوادگی",
+        "level": "دهک",
+        "view_user_detail": "مشاهده جزیئات",
+        "view_user_chat": "مشاهده چت های کاربر",
+        "view_user_purchase_records": "سوابق خرید کاربر"
+      },
+      "filter": {
+        "filter_title": "فیلتر",
+        "search": "جستجو...",
+        "level": "دهک",
+        "degree": "مدرک تحصیلی",
+        "house_hold": "سرپرست خانوار",
+        "chat": "چت های انجام شده",
+        "kala": "کالا برگ",
+        "apply_filter": "اعمال فیلترها"
+      },
+      "view_user_detail": {
+        "first_name": "نام",
+        "last_name": "نام خانوادگی",
+        "level": "دهک",
+        "house_hold_head": "سرپرست خانوار",
+        "national_code": "کدملی",
+        "father_name": "نام پدر",
+        "answered_chat": "تعداد چت های پاسخ داده شده",
+        "answered_question": " تعداد سئوالات پرسیده شده",
+        "user_score": "تعداد امتیاز های داده شده توسط این کاربر"
+      }
+    },
+    "bot_management": {
+      "table": {
+        "copy_link": "کپی لینک",
+        "edit_agent": "ویرایش ایجنت",
+        "view_detail": "مشاهده جزئیات",
+        "questions": "سوالات",
+        "delete": "حذف"
+      },
+      "filter": {
+        "filter_title": "فیلتر",
+        "search": "جستجو...",
+        "add_agent": "افزودن ایجنت",
+        "question_count": "تعداد سئوال",
+        "question_title": "موضوع سئوال",
+        "question_duration": "مدت زمان چت",
+        "apply_filter": "اعمال فیلترها"
+      },
+      "agent_management": {
+        "title": "افزودن ایجنت جدید",
+        "state_level_1": "مرحله اول",
+        "state_1": "تنظیمات چت",
+        "state_level_2": "مرحله دوم",
+        "state_2": "افزودن موضوع",
+        "state_level_3": "مرحله سوم",
+        "state_3": "افزودن سئوال",
+        "state_level_4": "مرحله چهارم",
+        "state_4": "انتخاب فایل",
+        "state_level_5": "مرحله پنجم",
+        "state_5": "پیش نمایش",
+        "title_input": "عنوان",
+        "invalid_title": "عنوان را وارد کنید.",
+        "chat_duration_input": "مدت زمان چت",
+        "invalid_chat_duration": "زمان چت را انتخاب کنید.",
+        "questions_input": "تعداد سئوالات",
+        "invalid_questions": "تعداد سئوالات را انتخاب کنید.",
+        "save_agent": "ذخیره و رفتن به مرحله بعد",
+        "save_new_agent": "ذخیره و ایجاد ایجنت جدید",
+        "status": "وضعیت",
+        "from_step": "از 5",
+        "question_title_input": "موضوع سئوال",
+        "invalid_question_title": "موضوع سئوال را انتخاب کنید.",
+        "question_input": "سئوال",
+        "invalid_question": "سئوال را وارد کنید.",
+        "answer_input": "پاسخ سئوال",
+        "invalid_answer": "پاسخ سئوال را وارد کنید.",
+        "add_new_question": "افزودن سئوال و پاسخ",
+        "create_agent_successful": "افزودن ایجنت جدید با موفقیت انجام شد."
+      },
+      "question": {
+        "title": "سئوال شماره",
+        "view_detail": "مشاهده",
+        "edit_question": "ویرایش سوالات",
+        "edit_agent": "ویرایش ایجنت",
+        "delete": "حذف",
+        "question_input": "سئوال",
+        "answer_input": "پاسخ سئوال",
+        "invalid_question_input": "لطفا سوال خود را وارد کنید.",
+        "invalid_answer_input": "لطفا جواب خود را وارد کنید.",
+        "save_question": "ویرایش سئوال و ذخیره"
+      }
+    },
+    "chat_management": {
+      "table": {
+        "chat_id": "چت ایدی",
+        "responding_user": "کاربر پاسخ دهنده",
+        "score": "امتیاز",
+        "edit_score": "ویرایش و ثبت امتیاز",
+        "view_chat": "مشاهده چت",
+        "edit_chat": "ویرایش چت"
+      },
+      "filter": {
+        "filter_title": "فیلتر",
+        "search": "جستجو...",
+        "period": "انتخاب بازه زمانی",
+        "score_range": "براساس امتیاز",
+        "edited": "براساس ویرایش",
+        "apply_filter": "اعمال فیلترها",
+        "delete_filter": "پاک کردن فیلترها",
+        "edited_chat": "ویرایش شده",
+        "no_edited_chat": "بدون ویرایش",
+        "datepicker_title": "بازه زمانی مورد نظر را انتخاب کنید"
+      },
+      "score_modal": {
+        "title": "ویرایش و ثبت امتیاز",
+        "chat_id": "چت ایدی",
+        "first_name": "نام",
+        "national_code": "کد ملی",
+        "last_name": "نام خانوادگی",
+        "save_score": "ذخیره و ثبت امتیاز"
+      },
+      "chat_modal": {
+        "title": "ویرایش پیام",
+        "message_textarea": "متن پیام",
+        "invalid_message": "پیام خود را وارد کنید.",
+        "save_message": "ذخیره و ویرایش پیام"
+      },
+      "chat_page": {
+        "chat_id": "چت ایدی",
+        "first_name": "نام",
+        "last_name": "نام خانوادگی",
+        "national_code": "کد ملی",
+        "level": "دهک",
+        "score": "امتیاز",
+        "user": "کاربر پاسخ دهنده",
+        "edit_chat": "ویرایش پیام",
+        "date": "تاریخ"
+      }
+    },
+    "upload_file": {
+      "title": "آپلود فایل",
+      "drag": "Drag your file(s) to start uploading",
+      "browse_file": "Browse files",
+      "file_title_input": "عنوان فایل",
+      "save_file": "ذخیره و آپلود فایل",
+      "uploaded_file": "فایل های آپلود شده",
+      "delete": "حذف "
+    }
+  }
+}
