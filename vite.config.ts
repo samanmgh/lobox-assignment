@@ -8,8 +8,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        // implementation: sass,
-        additionalData: `@import "./src/utiles/styles/_mantine";`,
+        implementation: sass,
       },
     },
   },
