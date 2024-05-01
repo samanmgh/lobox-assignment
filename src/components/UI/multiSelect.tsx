@@ -1,11 +1,13 @@
 import React, {useRef, useState} from 'react';
 import {ArrowDown, ArrowUp, BallIcon, CheckmarkIcon} from "../../assets";
+
 interface ListItem {
     label: string;
     value: string;
     icon: React.ReactElement;
     selected?: boolean;
 }
+
 const MultipleSelect = () => {
     const wrapperRef = useRef<HTMLDivElement>(null);
     const [isOpen, setIsOpen] = useState<boolean>(false);
